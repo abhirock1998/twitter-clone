@@ -1,0 +1,45 @@
+.widget {
+  flex: 0.3;
+  overflow-y: scroll;
+}
+.widget::-webkit-scrollbar {
+  display: none;
+}
+.widget_input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  position: sticky;
+  top: 0;
+  margin-left: 20px;
+}
+.widget_input > input {
+  border: none;
+  background-color: var(--twitter-background);
+}
+
+.widget_searchIcon {
+  color: gray;
+}
+
+.widget_widgetContainer {
+  margin-top: 15px;
+  margin-left: 20px;
+  /* padding:20px; */
+  padding: 15px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+.widget_widgetContainer > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+@media screen and (max-width: 1100px) {
+  .widget {
+    display: none;
+    transition: 0.5s width ease-in;
+  }
+}

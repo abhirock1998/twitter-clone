@@ -1,0 +1,77 @@
+{
+  "name": "twitter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@reduxjs/toolkit": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "firebase": "^8.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-flip-move": "^3.0.4",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-twitter-embed": "^3.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage --watchAll",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.js",
+      "!<rootDir>/src/App.js",
+      "!<rootDir>/src/routes.js",
+      "!<rootDir>/src/firebase.js",
+      "!<rootDir>/src/firebase.prod.js",
+      "!<rootDir>/src/index.js",
+      "!<rootDir>/src/Feed.js",
+      "!<rootDir>/src/Post.js",
+      "!<rootDir>/src/Sidebar.js",
+      "!<rootDir>/src/Sidebaroption.js",
+      "!<rootDir>/src/SignIn.js",
+      "!<rootDir>/src/SignUp.js",
+      "!<rootDir>/src/Tweetbox.js",
+      "!<rootDir>/src/Widget.js",
+      "!<rootDir>/src/app/store.js",
+      "!<rootDir>/src/features/userSlice.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    },
+    "coverageReporters": [
+      "html",
+      "text"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1"
+  }
+}

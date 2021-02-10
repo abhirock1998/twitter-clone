@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tweetbox/>  render the <Tweetbox/> with dummy data 1`] = `
+<div
+  class="tweetBox"
+  data-testid="tweetBox"
+>
+  <form>
+    <div
+      class="tweetBox_input"
+    >
+      <div
+        class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiAvatar-fallback"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+          />
+        </svg>
+      </div>
+      <input
+        placeholder="What's happening?"
+        type="text"
+        value=""
+      />
+    </div>
+    <input
+      class="tweetBox_imageInput"
+      placeholder="Optional: Enter image URL"
+      type="text"
+      value=""
+    />
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text tweetBox_button Mui-disabled Mui-disabled"
+      disabled=""
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Tweet
+      </span>
+    </button>
+  </form>
+</div>
+`;
